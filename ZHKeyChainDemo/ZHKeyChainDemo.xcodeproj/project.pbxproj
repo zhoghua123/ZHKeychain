@@ -14,6 +14,7 @@
 		303083BB2043DAED0061694F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303083B92043DAED0061694F /* LaunchScreen.storyboard */; };
 		303083BE2043DAED0061694F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303083BD2043DAED0061694F /* main.m */; };
 		303083CC2043F28D0061694F /* ZHKeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 303083CB2043F28D0061694F /* ZHKeyChainManager.m */; };
+		307B3C8A20452C7E00A3BA40 /* ZHMD5Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 307B3C8920452C7E00A3BA40 /* ZHMD5Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		303083CA2043F28D0061694F /* ZHKeyChainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHKeyChainManager.h; sourceTree = "<group>"; };
 		303083CB2043F28D0061694F /* ZHKeyChainManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHKeyChainManager.m; sourceTree = "<group>"; };
 		303083F22044070C0061694F /* ZHKeyChainDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZHKeyChainDemo.entitlements; sourceTree = "<group>"; };
+		307B3C8820452C7E00A3BA40 /* ZHMD5Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHMD5Tool.h; sourceTree = "<group>"; };
+		307B3C8920452C7E00A3BA40 /* ZHMD5Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHMD5Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				303083F22044070C0061694F /* ZHKeyChainDemo.entitlements */,
 				303083CA2043F28D0061694F /* ZHKeyChainManager.h */,
 				303083CB2043F28D0061694F /* ZHKeyChainManager.m */,
+				307B3C8820452C7E00A3BA40 /* ZHMD5Tool.h */,
+				307B3C8920452C7E00A3BA40 /* ZHMD5Tool.m */,
 				303083AE2043DAED0061694F /* AppDelegate.h */,
 				303083AF2043DAED0061694F /* AppDelegate.m */,
 				303083B12043DAED0061694F /* ViewController.h */,
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303083B32043DAED0061694F /* ViewController.m in Sources */,
+				307B3C8A20452C7E00A3BA40 /* ZHMD5Tool.m in Sources */,
 				303083BE2043DAED0061694F /* main.m in Sources */,
 				303083CC2043F28D0061694F /* ZHKeyChainManager.m in Sources */,
 				303083B02043DAED0061694F /* AppDelegate.m in Sources */,

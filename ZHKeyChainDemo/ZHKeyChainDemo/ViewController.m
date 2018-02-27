@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZHKeyChainManager.h"
+#import "ZHMD5Tool.h"
 @interface ViewController ()
 
 @end
@@ -115,4 +116,9 @@ NSString * const KEY_USERNAME_PASSWORDLIST = @"com.company.app.usernamepasswordl
     [ZHKeyChainManager keyChainDelete:KEY_USERNAME_PASSWORDLIST];
 }
 
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"简单的MD5加密%@",[ZHMD5Tool md5String:@"123456"]);
+    NSLog(@"复杂的MD5加密%@",[ZHMD5Tool md5String2:@"123456"]);
+}
 @end
